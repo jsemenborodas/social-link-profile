@@ -101,3 +101,47 @@ p {
     padding-top: 30px;
     font-size: 14px;
 }
+
+.page__links{
+    padding-top: 25px;
+    width: 86%;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    height: 45px;
+    border-radius: 10px;
+    background-color: var(--grey-700);
+}
+
+li a{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+@media (width >= 768px) {
+    main{
+        max-width: 385px;
+    }
+
+    .portfolio{
+        min-height: 610px;
+    }
+
+    .profile{
+        padding-top: 40px;
+    }
+
+    .page__links{
+        width: 80%;
+    }
+}
