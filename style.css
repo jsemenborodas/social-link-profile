@@ -144,4 +144,14 @@ li a{
     .page__links{
         width: 80%;
     }
+
+    li:hover{
+        background: var(--green);
+    }
+
+    li:hover a{
+        color: var(--grey-700);
+        transform: scale(1.15);
+        transition: transform 1s;
+    }
 }
